@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: grey;
+}
+.container{
+    background: white;
+    max-width: 960px;
+    margin: 0 auto;
+}
+/*HEADER SECTION STARTS*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 10px solid grey;
+}
+
+.contact-side{
+    text-align: right;
+    padding-right: 20px;
+}
+
+.contact-side p{
+    color: #064570;
+    font-size: 20px;
+}
+
+.contact-side p a{
+    text-decoration: none;
+}
+
+.contact-side p a:hover{
+    text-decoration: underline;
+}
+/*HEADER SECTION ENDS*/
+
+/*HERO SECTION STARTS*/
+.hero-section img{
+    width: 100%;
+}
+/*HERO SECTION ENDS*/
+
+/*CONTENT SECTION STARTS*/
+.content-section{
+    display: flex;
+}
+
+.content-section .text-section{
+    width: 70%;
+    padding: 20px 30px;
+}
+
+.content-section .text-section h1, 
+.service-list h2{
+    color: #064570;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.content-section .text-section p,
+.content-section .text-section h6{
+    padding-bottom: 15px;
+}
+
+.content-section .service-list{
+    width: 30%;
+    padding: 20px 30px;
+    border-left: 1px dotted black;
+}
+
+.content-section .service-list ul li{
+    list-style: none;
+}
+
+.content-section .service-list ul li a{
+    font-weight: bold;
+    color: #064570;
+     text-decoration: none;
+}
+.content-section .service-list ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/*CONTENT SECTION ENDS*/
+/*FOOTER SECTION STARTS*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #064570;
+}
+footer p{
+    color: white;
+}
+/*FOOTER SECTION ENDS*/
+
+
+table,th,td{
+    border: 1px solid black;
+    background: white;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+table{
+    width: 560px;
+    margin: 0 auto;
+}
